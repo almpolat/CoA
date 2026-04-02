@@ -56,10 +56,3 @@ void ACOABaseCharacter::Tick(float DeltaTime)
         }
     }
 }
-// Called to bind functionality to input
-void ACOABaseCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
-{
-	Super::SetupPlayerInputComponent(PlayerInputComponent);
-
-}
-
